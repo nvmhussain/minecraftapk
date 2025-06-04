@@ -73,40 +73,58 @@
     <!-- header part end  -->
     <!-- hero section start  -->
     <section class="hero-part bg-img bg-home" id="home">
-        <div class="container">
-            <!-- row start  -->
-            <div
-                class="row position-relative align-items-center justify-content-center">
-                <div class="col-lg-6 order-2 order-lg-1">
-                    <div class="headline mb-4">
-                        <a href="#" class="bg-light">
-                            <span class="badge text-bg-primary">Minecraft</span>
-                            Safe And Secure Download
-                            <i class="ri-arrow-right-line"></i>
-                            <span class="ti-angle-right"></span>
-                        </a>
-                    </div>
-                    <div class="hero-text">
-                        <h1 class="display-6 lh-55 text-dark">
-                            Minecraft APK Free Pocket Edition
-                            <span class="fw-semibold text-primary">
-                                v1.21.90.27</span>
-                            to Download
-                        </h1>                        
-                    </div>
-                    <div class="text-center text-lg-start">
-  <a href="#" class="btn btn-primary mt-3 px-4 py-2">Download Apk</a>
+        <style>
+  .container {
+    display: flex;
+        align-items: center;
+    padding: 20px;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  @media (min-width: 768px) {
+    .content {
+      flex-direction: row;
+      text-align: left;
+      justify-content: space-between;
+    }
+
+    .text-area {
+      flex: 1;
+      padding-right: 20px;
+    }
+
+    .image {
+      flex: 1;
+      max-width: 400px;
+      margin-top: 0;
+    }
+  }
+</style>
+
+<div class="container">
+  <div class="content">
+    <div class="text-area">
+      <h2>Minecraft APK Free Pocket Edition <span style="color:#4B4DED;">v1.21.90.27</span> to Download</h2>
+      <p>Safe And Secure Download</p>
+      <button style="padding:10px 20px; background-color:#4B4DED; color:white; border:none; border-radius:5px;">
+        Download Apk
+      </button>
+    </div>
+    <img src="your-image.png" alt="Minecraft Apk Phones" class="image">
+  </div>
 </div>
-                </div>
-                <div class="col-lg-6 order-1 order-lg-2">
-                    <div class="img-phone text-center mb-3">
-                        <img src="images/banner-img.png" alt
-                            class="img-fluid w-75" />
-                    </div>
-                </div>
-            </div>
-            <!-- row end  -->
-        </div>
     </section>
     <!-- hero section end  -->
     <!-- brand section start  -->
